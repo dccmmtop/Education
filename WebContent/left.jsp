@@ -13,19 +13,11 @@
 <p align="center" ><a href="./left/score.jsp" target="right">学生成绩</a></p>
 <p align="center" ><a href="./left/updataPassword.jsp" target="right">修改密码</a></p>
 <p align="center" ><a href="./left/exit.jsp" target="right">退出</a></p>
-<div class="user">
-${sessionScope.user}
-<label id="date"></label>
-</div>
+</body>
 
 </html>
 <style>
-.user
-{
-position: relative;
-left: 260px;
-bottom: -500px; 
-}
+
 </style>
 <script>
 $(document).ready(function(){

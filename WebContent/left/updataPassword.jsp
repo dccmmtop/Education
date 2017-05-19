@@ -24,7 +24,7 @@
 			</tr>
 			<tr>
 				<td colspan="2"><input type="button"
-					onclick="tijiao()" value="                             提交                   "></td>
+					onclick="tijiao()" value="提交"></td>
 			</tr>
 		</table>
 	</form>
@@ -54,7 +54,6 @@
 					alert("用户名或者密码错误");
 				else if (data == 0)
 					alert("没有这个账户");
-				 
 			}
 		});
 	 
